@@ -6,6 +6,8 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header, .intro, .footer {
@@ -29,4 +31,15 @@ body {
 .intro-desc h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 100px;
+    align-items: center;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
 }
