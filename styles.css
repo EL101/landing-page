@@ -65,3 +65,29 @@ body {
 .intro > img {
     width: 350px;
 }
+
+.info-head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 30px;
+}
+.info {
+    color: #1F2937;
+    margin-bottom: 100px;
+}
+.image > img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.image {
+    max-width: 200px;
+    text-align: center;
+}
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
