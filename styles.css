@@ -99,15 +99,19 @@ body {
     gap: 30px;
 }
 
-.quote {
+.quote-wrapper {
     background-color: #E5E7EB;
+}
+.quote {
     padding: 50px 200px;
     font-size: 36px;
     color: #1F2937;
     font-weight: light;
     font-style: italic;
-    /* display: flex;
-    flex-direction: column; */
+    min-width: 1200px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .quote > strong {
     display: flex;
