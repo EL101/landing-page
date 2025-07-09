@@ -138,3 +138,8 @@ body {
     padding: 0px 30px;
     font-weight: 700;
 }
+
+.footer {
+    text-align: center;
+    padding: 50px 0px;
+}
